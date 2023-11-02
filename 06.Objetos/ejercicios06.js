@@ -2,7 +2,12 @@
 // Completa el siguiente objeto 'alumnos' que tenga como primera propiedad nombre, segunda propiedad apellido, tercera edad y cuarta examen
 // nombre y apellido deben tener como valor un string, edad un entero y examen un booleano.
 // Tu código:
-let alumnos = {}
+let alumnos = {
+    nombre:"",
+    apellido:"",
+    edad: 30,
+    examen: true
+}
 
 
 function datosObj(obj){
@@ -11,6 +16,7 @@ function datosObj(obj){
     // obtener los valeres nombre y apellido y dar un mensaje de bienvenida 
     // 'Bienvenido Leonardo Avila' 
     // tu código aqui:
+    return "Bienvenido " + obj.nombre + " " + obj.apellido 
 
 }
 
@@ -19,19 +25,23 @@ function cambiandoPropiedades(obj){
     //{ nombre: Pablo, apellido: Perez, edad: 25 }
     // Agregar una propiedad 'nacionalidad' con el valor de 'Argentina'
     // tu código aqui:
-
+    
+    obj["nacionalidad"]="Argentina"
+    return obj
 }
 
 function eliminarPropiedad(objeto, propiedad) {
     // Esta funcion recibe por parametros un objeto y una propiedad del mismo objeto.
     // tendrás que eliminar esa propiedad del objeto y devolver el objeto
     // Tu código:
-
+    delete objeto[propiedad]
+    return objeto
 }
 
 function contieneEmail(user) {
     // Devuelve true si el user contiene la propiedad de 'email', si no contiene devuelve false
     // Tu código:
+    return user.email ? true: false
 
 }
 
@@ -40,7 +50,7 @@ function verificarPassword(user) {
     // comprueba si el valor de esta propiedad tiene un longitud mayor o igual a 8 caracteres
     // si cumple devolver true, caso contrario devolver 'Por favor, pon una contraseña más segura'
     // Tu código:
-
+    return 
 }
 
 function permisosDeEntrada(personas) {
