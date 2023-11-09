@@ -2,7 +2,8 @@
 // por el correspondiente.
 
 // Crea una variable de tipo string. // cadena de texto
-const nuevoString = null;
+const nuevoString = hola;
+
 // Crea una variable de tipo number.
 const nuevoNumero = null;
 
@@ -10,24 +11,25 @@ const nuevoNumero = null;
 const nuevoBoolean = null;
 
 // Resuelve el siguiente problema matemático.
-const nuevaResta = null - 7 === 3;
+const nuevaResta = 10 - 7 === 3;
 
 // Resuelve el siguiente problema matemático.
-const nuevaMultiplicacion = null * 4 === 40;
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático.
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 
 function primerCaracter(string){
     //Por parametros se pasa una cadena de texto. Tienes que devolver el primer carácter!
     //Tu código:👇
-
+    console.log(string.charAt(0))
 }
 
 function ultimoCaracter(string){
     //Por parámetros se pasa una cadena de texto. Tienes que devolver el primer carácter!
     //Tu código: 👇
+    console.log(string.charAt(13))
 
 }
 
