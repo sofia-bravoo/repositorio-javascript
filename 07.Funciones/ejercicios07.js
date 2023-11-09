@@ -4,6 +4,12 @@
 //Debes crear un funcion que retorne un mensaje de bienvenida con nombre y apellido de la persona
 //Ejemplo "Bienvenido Leonardo Avila" -> IMPORTANTE la funcion tiene que llamarse 'bienvenida'
 //Tu código:
+let nombre = Leonardo;
+let Apellido = Avila;
+
+function bienvenida(nombre, apellido) {
+    return "bienvenido"+nombre + " " + apellido;    
+}
 
 
 
@@ -11,6 +17,10 @@
 // Crea una funcion el cual cumpla la funcion de una calculadora.. tiene que recibir 3 parametros num1, operador y num2
 // IMPORTANTE -> la funcion debe llamarse 'calc'
 // Tu código:
+
+function calc(num1,num2) {
+    
+}
 
 
 

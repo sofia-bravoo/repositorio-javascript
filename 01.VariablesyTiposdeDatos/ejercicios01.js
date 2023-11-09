@@ -36,7 +36,7 @@ function ultimoCaracter(string){
 function longitudDeCadena(string){
     //En este ejercicio tendrás que devolver la longitud de la cadena que se pasa por parámetros!
     //tu código: 👇
-
+    console.log (longitudDeCadena.length)
 }
 
 function enMayusculas(string){
